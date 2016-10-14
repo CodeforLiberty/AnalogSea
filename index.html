@@ -3,27 +3,32 @@
 	<head>
 		<title>AnalogSea Login</title>
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/styles2.css">
     	<meta charset="UTF-8">
     	<meta name="description" content="AnalogSea login">
 	</head>
 	<body>
 		<main>
 			<img alt="AnalogSea Logo" src="./logo.png">
-			<div>
-				<h2> Sign Up</h2>
+
 				<form action="NA" method="post" id="signup">
+				<h2> Sign Up</h2>
 					<label for="Email">Email</label>
+					<br/>
 					<input type="email" name="Email" id="Email" placeholder="foo@bar.com" required>
+					<br/>
 					<label for="Password" id="password">Password</label>
-					<input type="text" name="Password" id="Password" placeholder="139e56q" required>
-					<input id="submit" name="submit" form="signup" type="submit">
+					<br/>
+					<input type="text" name="Password" id="Password" placeholder="123passw0rd" required>
+					<button type="submit">Sign up</button>
+					
 					<a class="forgot" href="forgot_password/new">Forgot Password?</a>
 				</form>
-			</div>
+			<div>
 			<p>Already have an account?
 				<a href="/login">Log In</a>
 			</p>
+			</div>
 		</main>
 	</body>
 </html>
